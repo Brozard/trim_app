@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  full_name: MyString
+  email: MyString
+  project_repo: MyString
+  project_url: MyString
+  oop_best_practices: 1
+  modular_dev: 1
+  workflow_understanding: 1
+  testing: 1
+  database_knowledge: 1
+  debugging: 1
+  problem_solving: 1
+  javascript: 1
+  html: 1
+  css: 1
+  teamwork: 1
+  self_motivation: 1
+  communication_skils: 1
+  energy_level: 1
+  intelligence: 1
+
+two:
+  full_name: MyString
+  email: MyString
+  project_repo: MyString
+  project_url: MyString
+  oop_best_practices: 1
+  modular_dev: 1
+  workflow_understanding: 1
+  testing: 1
+  database_knowledge: 1
+  debugging: 1
+  problem_solving: 1
+  javascript: 1
+  html: 1
+  css: 1
+  teamwork: 1
+  self_motivation: 1
+  communication_skils: 1
+  energy_level: 1
+  intelligence: 1
