@@ -13,3 +13,61 @@
  *= require_tree .
  *= require_self
  */
+
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-family: "Museo Sans", Verdana, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #114B5F;
+}
+
+main {
+  width: 50%;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #456990; 
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/*Input fields CSS*/
+
+p {
+  display: inline;
+  color: #E4FDE1;
+}
+
+input, textarea {
+  background-color: #E4FDE1;
+  color: #028090;
+  border: none;
+}
+
+input[type="number"] {
+  width: 50px;
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+   color: #028090;
+}
+
+:-moz-placeholder {
+   color: #028090;  
+}
+
+::-moz-placeholder {
+   color: #028090;  
+}
+
+:-ms-input-placeholder {  
+   color: #028090;  
+}
