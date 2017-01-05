@@ -11,95 +11,99 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.text_field :full_name, placeholder: "FULL NAME" %>
+  <div class="text_fields">
+    <div class="field">
+      <%= f.text_field :full_name, placeholder: "FULL NAME" %>
+    </div>
+
+    <div class="field">
+      <%= f.text_field :email, placeholder: "EMAIL" %>
+    </div>
+
+    <div class="field">
+      <%= f.text_field :project_repo, placeholder: "PROJECT REPO" %>
+    </div>
+
+    <div class="field">
+      <%= f.text_field :project_url, placeholder: "PROJECT URL" %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= f.text_field :email, placeholder: "EMAIL" %>
-  </div>
+  <div class="number_fields">
+    <div class="num_field">
+      <p>USING BEST PRACTICES FOR OOP:</p>
+      <%= f.number_field :oop_best_practices %>
+    </div>
 
-  <div class="field">
-    <%= f.text_field :project_repo, placeholder: "PROJECT REPO" %>
-  </div>
+    <div class="num_field">
+      <p>MODULAR DEVELOPMENT:</p>
+      <%= f.number_field :modular_dev %>
+    </div>
 
-  <div class="field">
-    <%= f.text_field :project_url, placeholder: "PROJECT URL" %>
-  </div>
+    <div class="num_field">
+      <p>FULL-STACK WORKFLOW UNDERSTANDING:</p>
+      <%= f.number_field :workflow_understanding %>
+    </div>
 
-  <div class="field">
-    <p>USING BEST PRACTICES FOR OOP</p>
-    <%= f.number_field :oop_best_practices %>
-  </div>
+    <div class="num_field">
+      <p>TESTING:</p>
+      <%= f.number_field :testing %>
+    </div>
 
-  <div class="field">
-    <p>MODULAR DEVELOPMENT</p>
-    <%= f.number_field :modular_dev %>
-  </div>
+    <div class="num_field">
+      <p>DATABASE KNOWLEDGE:</p>
+      <%= f.number_field :database_knowledge %>
+    </div>
 
-  <div class="field">
-    <p>FULL-STACK WORKFLOW UNDERSTANDING</p>
-    <%= f.number_field :workflow_understanding %>
-  </div>
+    <div class="num_field">
+      <p>DEBUGGING:</p>
+      <%= f.number_field :debugging %>
+    </div>
 
-  <div class="field">
-    <p>TESTING</p>
-    <%= f.number_field :testing %>
-  </div>
+    <div class="num_field">
+      <p>PROBLEM SOLVING SKILLS:</p>
+      <%= f.number_field :problem_solving %>
+    </div>
 
-  <div class="field">
-    <p>DATABASE KNOWLEDGE</p>
-    <%= f.number_field :database_knowledge %>
-  </div>
+    <div class="num_field">
+      <p>JAVASCRIPT:</p>
+      <%= f.number_field :javascript %>
+    </div>
 
-  <div class="field">
-    <p>DEBUGGING</p>
-    <%= f.number_field :debugging %>
-  </div>
+    <div class="num_field">
+      <p>HTML:</p>
+      <%= f.number_field :html %>
+    </div>
 
-  <div class="field">
-    <p>PROBLEM SOLVING SKILLS</p>
-    <%= f.number_field :problem_solving %>
-  </div>
+    <div class="num_field">
+      <p>CSS:</p>
+      <%= f.number_field :css %>
+    </div>
 
-  <div class="field">
-    <p>JAVASCRIPT</p>
-    <%= f.number_field :javascript %>
-  </div>
+    <div class="num_field">
+      <p>WORKING ON A TEAM:</p>
+      <%= f.number_field :teamwork %>
+    </div>
 
-  <div class="field">
-    <p>HTML</p>
-    <%= f.number_field :html %>
-  </div>
+    <div class="num_field">
+      <p>SELF MOTIVATION:</p>
+      <%= f.number_field :self_motivation %>
+    </div>
 
-  <div class="field">
-    <p>CSS</p>
-    <%= f.number_field :css %>
-  </div>
+    <div class="num_field">
+      <p>COMMUNICATION SKILLS:</p>
+      <%= f.number_field :communication_skils %>
+    </div>
 
-  <div class="field">
-    <p>WORKING ON A TEAM</p>
-    <%= f.number_field :teamwork %>
-  </div>
+    <div class="num_field">
+      <p>YOUR OWN ENERGY LEVEL:</p>
+      <%= f.number_field :energy_level %>
+    </div>
 
-  <div class="field">
-    <p>SELF MOTIVATION</p>
-    <%= f.number_field :self_motivation %>
-  </div>
-
-  <div class="field">
-    <p>COMMUNICATION SKILLS</p>
-    <%= f.number_field :communication_skils %>
-  </div>
-
-  <div class="field">
-    <p>YOUR OWN ENERGY LEVEL</p>
-    <%= f.number_field :energy_level %>
-  </div>
-
-  <div class="field">
-    <p>INTELLIGENCE / APTITUDE</p>
-    <%= f.number_field :intelligence %>
+    <div class="num_field">
+      <p>INTELLIGENCE / APTITUDE:</p>
+      <%= f.number_field :intelligence %>
+    </div>
   </div>
 
   <div class="actions">

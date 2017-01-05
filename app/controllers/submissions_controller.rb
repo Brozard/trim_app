@@ -17,6 +17,7 @@ class SubmissionsController < ApplicationController
 
     respond_to do |format|
       if @submission.save
+        Submission.Mailer.submission_email(@submission).deliver_later
         format.html { redirect_to submissions_path, notice: 'Submission' }
         # format.json { render :new, status: :created, location: @submission }
       else

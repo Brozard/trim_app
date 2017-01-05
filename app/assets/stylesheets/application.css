@@ -41,19 +41,38 @@ h1 {
 /*Input fields CSS*/
 
 p {
-  display: inline;
+  display: inline-block;
   color: #E4FDE1;
+  height: 3em;
+  vertical-align: middle;
+  margin: auto 0;
 }
 
 input, textarea {
   background-color: #E4FDE1;
   color: #028090;
   border: none;
+  width: 98%;
+  height: 3em;
+}
+
+input[type="text"] {
+  padding-left: 1em;
+  margin-bottom: 1.5em;
+}
+
+input[type="submit"] {
+  color: #E4FDE1;
+  background-color: #F45B69;
+  margin-top: 3em;
+  margin-bottom: -1em;
 }
 
 input[type="number"] {
   width: 50px;
   text-align: center;
+  /*float: right;*/
+  /*clear: both;*/
 }
 
 ::-webkit-input-placeholder {
@@ -71,3 +90,19 @@ input[type="number"] {
 :-ms-input-placeholder {  
    color: #028090;  
 }
+
+.num_field {
+  height: 3em;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*.num_titles {
+  width: 90%;
+}
+
+.num_values {
+  width: 10%;
+  align-content: right;
+}*/
