@@ -1,8 +1,8 @@
 class SubmissionsMailer < ApplicationMailer
-  default from: 'omnischedulerapp@gmail.com'
+  default from: ENV["MAIN_EMAIL"]
  
   def submission_email(submission)
     @submission = submission
-    mail(to: 'eatgamecode@gmail.com', subject: "Trim Agency Coding Challenge Submission by #{@submission.full_name}")
+    mail(to: ENV["SUBMISSION_EMAIL"], subject: "Trim Agency Coding Challenge Submission by #{@submission.full_name}")
   end
 end
