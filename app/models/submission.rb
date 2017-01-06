@@ -16,7 +16,8 @@ class Submission < ApplicationRecord
             presence: true,
             length: { in: 1..2 },
             numericality: { only_integer: true }
-
+  validates :sum_of_attributes,
+            numericality: { less_than_or_equal_to: 50 }
 
   private
 
