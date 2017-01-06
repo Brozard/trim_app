@@ -1,12 +1,26 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
-  </head>
-  <body>
-    <h1>Trim Agency Submission by <%= @submission.full_name %></h1>
-    <p>
-      Thanks for joining and have a great day!
-    </p>
-  </body>
-</html>
+<main>
+  <h1>Trim Agency Submission</h1>
+  <div class="text_fields">
+    <p><strong>NAME:</strong> <%= @submission.full_name %></p>
+    <p><strong>EMAIL:</strong> <%= @submission.email %></p>
+    <p><strong>PROJECT REPO:</strong> <%= @submission.project_repo %></p>
+    <p><strong>PROJECT URL:</strong> <%= @submission.project_url %></p>
+  </div>
+  <div class ="attribute_fields">
+    <p><strong>USING BEST PRACTICES FOR OOP:</strong> <%= @submission.oop_best_practices %></p>
+    <p><strong>MODULAR DEVELOPMENT:</strong> <%= @submission.modular_dev %></p>
+    <p><strong>FULL-STACK WORKFLOW UNDERSTANDING:</strong> <%= @submission.workflow_understanding %></p>
+    <p><strong>TESTING:</strong> <%= @submission.testing %></p>
+    <p><strong>DATABASE KNOWLEDGE:</strong> <%= @submission.database_knowledge %></p>
+    <p><strong>DEBUGGING:</strong> <%= @submission.debugging %></p>
+    <p><strong>PROBLEM SOLVING SKILLS:</strong> <%= @submission.problem_solving %></p>
+    <p><strong>JAVASCRIPT:</strong> <%= @submission.javascript %></p>
+    <p><strong>HTML:</strong> <%= @submission.html %></p>
+    <p><strong>CSS:</strong> <%= @submission.css %></p>
+    <p><strong>WORKING ON A TEAM:</strong> <%= @submission.teamwork %></p>
+    <p><strong>SELF MOTIVATION:</strong> <%= @submission.self_motivation %></p>
+    <p><strong>COMMUNICATION SKILLS:</strong> <%= @submission.communication_skils %></p>
+    <p><strong>YOUR OWN ENERGY LEVEL:</strong> <%= @submission.energy_level %></p>
+    <p><strong>INTELLIGENCE / APTITUDE:</strong> <%= @submission.intelligence %></p>
+  </div>
+</main>

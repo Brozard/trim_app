@@ -3,8 +3,6 @@ class SubmissionsMailer < ApplicationMailer
  
   def submission_email(submission)
     @submission = submission
-    # @url  = 'http://eatgamecode.com'
-    # mail(to: @submission.email, subject: 'Your Submission Has Been Made')
-    mail(to: 'eatgamecode@gmail.com', subject: "Coding Challenge Submission by #{@submission.full_name}")
+    mail(to: 'eatgamecode@gmail.com', subject: "Trim Agency Coding Challenge Submission by #{@submission.full_name}")
   end
 end

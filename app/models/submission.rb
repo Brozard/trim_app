@@ -15,7 +15,11 @@ class Submission < ApplicationRecord
   validates :oop_best_practices, :modular_dev, :workflow_understanding, :testing, :database_knowledge, :debugging, :problem_solving, :javascript, :html, :css, :teamwork, :self_motivation, :communication_skils, :energy_level, :intelligence,
             presence: true,
             length: { in: 1..2 },
-            numericality: { only_integer: true }
+            numericality: {
+              only_integer: true,
+              greater_than_or_equal_to: 0,
+              less_than_or_equal_to: 50
+            }
   validates :sum_of_attributes,
             numericality: { less_than_or_equal_to: 50 }
 
