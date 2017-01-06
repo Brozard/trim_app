@@ -65,7 +65,7 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     address:              'smtp.gmail.com',
     port:                 587,
-    domain:               'gmail.com',
+    domain:               'aqueous-plains-46447.herokuapp.com',
     user_name:            'omnischedulerapp',
     password:             ENV['OMNI_SCHEDULE_GMAIL_PASSWORD'],
     authentication:       'plain',
